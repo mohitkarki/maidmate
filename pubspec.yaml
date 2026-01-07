@@ -1,0 +1,67 @@
+name: maid_mate
+description: MaidMate – Making Life Easier
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI icons
+  cupertino_icons: ^1.0.8
+
+  # Firebase core
+  firebase_core: ^2.25.0
+
+  # Firebase authentication (email & password)
+  firebase_auth: ^4.17.0
+
+  # Firestore database (optional but ready)
+  cloud_firestore: ^4.15.0
+
+  # App icon generator (important for Android 12 splash)
+  flutter_launcher_icons: ^0.14.4
+
+  # Google sign in
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_native_splash: ^2.4.0
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/app_icon2.png
+    - assets/app_icon3.png
+    - assets/google.png
+
+# APP ICON CONFIGURATION
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path_android: assets/app_icon3.png
+  image_path_ios: assets/app_icon3.png
+
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: assets/app_icon3.png
+
+# SPLASH SCREEN CONFIGURATION
+flutter_native_splash:
+  color: "#FFFFFF"       # same as your app background
+  image: assets/app_icon2.png
+  android: true
+  ios: true
+
+  android_12:
+    color: "#FFFFFF"
+    image: assets/app_icon2.png
+
