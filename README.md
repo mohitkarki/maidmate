@@ -1,16 +1,25 @@
-# first_apk
+# MaidMate App 🧹
 
-A new Flutter project.
+MaidMate is a Flutter-based mobile application that helps users find and book household services like cleaning, cooking, and maintenance easily.
 
-## Getting Started
+## 📱 Download APK
+👉 [Download App](https://drive.google.com/file/d/1vsO41r0DbMCqDhi9iu53ZRZLTKuSyuwq/view?usp=sharing)
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- Book household services easily
+- Clean and user-friendly UI
+- Fast and responsive performance
+- Secure user authentication (if used)
+- Real-time service availability (if applicable)
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tech Stack
+- Flutter
+- Dart
+- Firebase
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📂 Project Structure
+- lib/ → Main application logic  
+- assets/ → Images and UI resources  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 👨‍💻 Developer
+Mohit Singh Karki
